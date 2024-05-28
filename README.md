@@ -12,3 +12,10 @@ Script de ejemplo para Hackathon de SAFA.
 **Observaciones** 
 
 No es necesario la creación de índices, todos los campos pueden ser de tipo texto.
+
+**Web de ejemplo**
+Deportes: https://www.statarea.com/
+Viajes: https://www.pepecar.com/
+Nutrición: https://www.cun.es/chequeos-salud/vida-sana/nutricion
+Noticias: https://www.20minutos.es/
+Alquiler: https://www.fotocasa.es/
