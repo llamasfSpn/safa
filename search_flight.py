@@ -66,7 +66,8 @@ def search_flight(web,from_loc, to_loc, date):
     if web =='expedia':
         #URL a la que haremos Web scrapping
         #A la URL se le pasará los elementos de entrada ya que así lo permite
-        url = f"https://www.expedia.ie/Flights-Search?flight-type=on&mode=search&trip=oneway&leg1=from:{from_loc},to:{to_loc},departure:{date},TANYT&passengers=adults:1"
+        #url = f"https://www.expedia.ie/Flights-Search?flight-type=on&mode=search&trip=oneway&leg1=from:{from_loc},to:{to_loc},departure:{date},TANYT&passengers=adults:1"
+        url = f"https://www.expedia.ie/Flights-Search?flight-type=on&mode=search&trip=oneway&leg1=from%3A{from_loc}%2Cto%3A{to_loc}%2Cdeparture%3A{date}%2CTANYT&passengers=adults%3A01"
         #Pintamos en pantalla información de url
         print(f"URL: {url}")    
         #Llamamos al emulador de Firefox
